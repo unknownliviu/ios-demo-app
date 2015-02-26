@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

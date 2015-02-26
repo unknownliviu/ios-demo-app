@@ -17,6 +17,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ViewController *viewcontroller1 = [ViewController new];
+    SecondViewController *viewcontroller2 = [SecondViewController new];
+    
+    UITabBarController *tabBarController = [UITabBarController new];
+    
+    UINavigationController *navigation1 = [[UINavigationController alloc] initWithRootViewController:viewcontroller1];
+    UINavigationController *navigation2 = [[UINavigationController alloc] initWithRootViewController:viewcontroller2];
+    
+    tabBarController.viewControllers = @[navigation1, navigation2];
+    
+
+    
+    viewcontroller1.title = @"Countries";
+    viewcontroller2.title = @"Fonts";
+    tabBarController.tabBar.translucent = NO;
+    
+    
+    [[UINavigationBar appearance] setTranslucent: NO];
+//    navigation1.navigationBar.barTintColor = [UIColor brownColor];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor brownColor]];
+    
+    UITabBarItem *tabItem1 =[[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
+    tabItem1.title = @"countries";
+    navigation1.tabBarItem = tabItem1;
+    
+    UITabBarItem *tabItem2 =[[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemDownloads tag:1];
+    tabItem2.title = @"fonts";
+    navigation2.tabBarItem = tabItem2;
+    
+    
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

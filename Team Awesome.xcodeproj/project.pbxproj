@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2B8A9C1A9E377600180044 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B8A9B1A9E377600180044 /* SecondViewController.m */; };
 		1BB0D8E41A94F38900693F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0D8E31A94F38900693F17 /* main.m */; };
 		1BB0D8E71A94F38900693F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0D8E61A94F38900693F17 /* AppDelegate.m */; };
 		1BB0D8EA1A94F38900693F17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0D8E91A94F38900693F17 /* ViewController.m */; };
-		1BB0D8ED1A94F38900693F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB0D8EB1A94F38900693F17 /* Main.storyboard */; };
 		1BB0D8EF1A94F38900693F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB0D8EE1A94F38900693F17 /* Images.xcassets */; };
 		1BB0D8F21A94F38900693F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB0D8F01A94F38900693F17 /* LaunchScreen.xib */; };
 		1BB0D8FE1A94F38900693F17 /* Team_AwesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0D8FD1A94F38900693F17 /* Team_AwesomeTests.m */; };
@@ -27,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2B8A9A1A9E377600180044 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1B2B8A9B1A9E377600180044 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1BB0D8DE1A94F38900693F17 /* Team Awesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team Awesome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB0D8E21A94F38900693F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BB0D8E31A94F38900693F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +36,6 @@
 		1BB0D8E61A94F38900693F17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1BB0D8E81A94F38900693F17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1BB0D8E91A94F38900693F17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1BB0D8EC1A94F38900693F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BB0D8EE1A94F38900693F17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BB0D8F11A94F38900693F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1BB0D8F71A94F38900693F17 /* Team AwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Team AwesomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +85,9 @@
 				1BB0D8E51A94F38900693F17 /* AppDelegate.h */,
 				1BB0D8E61A94F38900693F17 /* AppDelegate.m */,
 				1BB0D8E81A94F38900693F17 /* ViewController.h */,
+				1B2B8A9A1A9E377600180044 /* SecondViewController.h */,
+				1B2B8A9B1A9E377600180044 /* SecondViewController.m */,
 				1BB0D8E91A94F38900693F17 /* ViewController.m */,
-				1BB0D8EB1A94F38900693F17 /* Main.storyboard */,
 				1BB0D8EE1A94F38900693F17 /* Images.xcassets */,
 				1BB0D8F01A94F38900693F17 /* LaunchScreen.xib */,
 				1BB0D8E11A94F38900693F17 /* Supporting Files */,
@@ -199,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB0D8ED1A94F38900693F17 /* Main.storyboard in Resources */,
 				1BB0D8F21A94F38900693F17 /* LaunchScreen.xib in Resources */,
 				1BB0D8EF1A94F38900693F17 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2B8A9C1A9E377600180044 /* SecondViewController.m in Sources */,
 				1BB0D8EA1A94F38900693F17 /* ViewController.m in Sources */,
 				1BB0D8E71A94F38900693F17 /* AppDelegate.m in Sources */,
 				1BB0D8E41A94F38900693F17 /* main.m in Sources */,
@@ -244,14 +246,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1BB0D8EB1A94F38900693F17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BB0D8EC1A94F38900693F17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BB0D8F01A94F38900693F17 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +406,7 @@
 				1BB0D9031A94F38900693F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB0D9041A94F38900693F17 /* Build configuration list for PBXNativeTarget "Team AwesomeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +415,7 @@
 				1BB0D9061A94F38900693F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
